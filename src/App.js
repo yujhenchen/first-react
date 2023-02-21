@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Hello />
-      <Message />
+      <Message messageCode="7" messageContent="This is the content of the message component"/>
       <Profile name="Profile Name 1" lastName="Last Name 1" />
       <Profile name="Profile Name 2" lastName="Last Name 2">
         <h3>I am the child element of the Profile component 2</h3>
